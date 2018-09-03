@@ -10,6 +10,7 @@
 
 .little {
   margin: 0px;
+  text-shadow: 2px 1px 3px black;
 }
 .contact{
   text-align: center;
@@ -48,6 +49,7 @@ i:hover {color:gray;}
 #titleName{
   padding-top: 20px;
   margin-bottom: 0px;
+  text-shadow: 2px 1px 7px black;
 }
 header {
   padding: 224px 0 100px;
@@ -81,6 +83,7 @@ section {
     width: 120px;
     float: left;
     margin-right: 15px;
+    box-shadow: 1px 1px 10px black;
     
   }
   .icon{
@@ -111,10 +114,12 @@ section {
     float: center;
     padding-top: 20px;
     margin-bottom: 0px;
+    text-shadow: 2px 1px 7px black;
   }
   .little {
     float: center;
     margin: 0px;
+    text-shadow: 2px 1px 3px black;
   }
   #top-sec{
     background-image: url('../assets/bg.jpg'); 
@@ -135,7 +140,7 @@ section {
   #profilePic{
     width: 120px;
     float: center;
-    
+    box-shadow: 1px 1px 10px black;
   }
   .iconTitle{
     float: center;
