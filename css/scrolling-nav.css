@@ -35,13 +35,7 @@
   
 }
 
-#top-con{
-  width: 470px;
-  
-  margin-right: auto;
-  margin-left: auto;
-  
-}
+
 button:focus {outline:0;}
 button:hover {color:gray;}
 .aa:hover {color:gray;}
@@ -76,6 +70,13 @@ section {
 }
 
 @media (min-width: 464px) {
+  #top-con{
+    width: 470px;
+    
+    margin-right: auto;
+    margin-left: auto;
+    
+  }
   #profilePic{
     width: 120px;
     float: left;
@@ -124,8 +125,7 @@ section {
     
   }
   #top-con{
-    width: 470px;
-    
+    width: auto;
     text-align: center;
     margin-right: auto;
     margin-left: auto;
@@ -142,7 +142,7 @@ section {
     
   }
   .icon{
-    float: center;
+    
     font-size: 40px;
     
   }
