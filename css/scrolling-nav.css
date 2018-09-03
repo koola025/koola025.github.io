@@ -142,8 +142,10 @@ section {
     
   }
   .icon{
-    float:center;
+    width: 120px;
+    float: center;
     padding: auto;
+    margin: auto;
     font-size: 40px;
     
   }
