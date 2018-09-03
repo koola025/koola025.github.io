@@ -27,6 +27,7 @@
 }
 #top-sec{
   background-image: url('../assets/bg.jpg'); 
+  background-position-x: center;
   background-repeat:no-repeat; 
   background-size: cover;
   height: 500px;
