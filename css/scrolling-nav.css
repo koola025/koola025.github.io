@@ -72,7 +72,7 @@ i:hover {color:gray;}
 }
 
 #titleName{
-  padding-top: 10px;
+  padding-top: 20px;
   margin-bottom: 0px;
 }
 header {
@@ -83,6 +83,10 @@ header {
 @media (min-width: 992px) {
   header {
     padding: 226px 0 100px;
+  }
+  #titleName{
+    padding-top: 20px;
+    margin-bottom: 0px;
   }
 }
 
