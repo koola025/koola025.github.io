@@ -9,7 +9,6 @@
 }
 
 .little {
-
   margin: 0px;
 }
 .contact{
@@ -18,23 +17,7 @@
   margin: auto;
   
 }
-.icon{
-  float: left;
-  font-size: 40px;
-  
-}
-.iconTitle{
-  float: left;
-  margin-right: 10px;
-  margin-top: 10px;
-}
-.iconButton{
-  
-  border: none;
-  backface-visibility: hidden;
- 
-  height: 50px;
-}
+
 .iconButton:active {
   
   box-shadow: none;
@@ -65,11 +48,7 @@ i:hover {color:gray;}
 .aa{
   color: #212529;
 }
-#profilePic{
-  width: 120px;
-  float: left;
-  margin-right: 15px;
-}
+
 
 #titleName{
   padding-top: 20px;
@@ -77,6 +56,11 @@ i:hover {color:gray;}
 }
 header {
   padding: 224px 0 100px;
+  
+}
+
+section {
+  padding: 150px 0;
   
 }
 
@@ -90,8 +74,82 @@ header {
   }
 }
 
-section {
-  padding: 150px 0;
-  
+@media (min-width: 464px) {
+  #profilePic{
+    width: 120px;
+    float: left;
+    margin-right: 15px;
+    
+  }
+  .icon{
+    float: left;
+    font-size: 40px;
+    
+  }
+  .iconTitle{
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+  .iconButton{
+    
+    border: none;
+    backface-visibility: hidden;
+   
+    height: 50px;
+  }
 }
 
+@media (max-width: 463px) {
+  header{
+    padding: 164px 0 0px;
+    
+  }
+  #titleName{
+    float: center;
+    padding-top: 20px;
+    margin-bottom: 0px;
+  }
+  .little {
+    float: center;
+    margin: 0px;
+  }
+  #top-sec{
+    background-image: url('../assets/bg.jpg'); 
+    background-repeat:no-repeat; 
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+    
+  }
+  #top-con{
+    width: 470px;
+    
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    
+  }
+  
+  #profilePic{
+    width: 120px;
+    float: center;
+    
+  }
+  .iconTitle{
+    float: center;
+    
+  }
+  .icon{
+    float: center;
+    font-size: 40px;
+    
+  }
+  .iconButton{
+  
+    border: none;
+    backface-visibility: hidden;
+   
+    height: 50px;
+  }
+}
