@@ -11,19 +11,19 @@
     <title>Ching-Hsuan Yang (Starla Yang)</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="assets/me3.jpg" rel="shortcut icon" type="image/x-icon" />
+    <link href="assets/googleProfilePic.jpg" rel="shortcut icon" type="image/x-icon" />
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <!-- Custom styles for this template -->
     <link href="css/scrolling-nav.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-
+    <script src="jquery-3.4.1.min.js"></script>
   </head>
 
   <body id="page-top">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+    <nav class="navbar navbar-expand-lg  fixed-top" id="mainNav">
       <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">Ching-Hsuan Yang</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,9 +48,9 @@
     <header class="text-white" id = "top-sec">
       
       <div class="" id = "top-con" >
-        <img src="assets/me3.jpg" alt="..." class="rounded img-thumbnail"  id = "profilePic">
+        <img src="assets/googleProfilePic.jpg" alt="..." class="rounded img-thumbnail"  id = "profilePic">
         
-        <h1 id = "titleName">Ching-Hsuan Yang</h1>
+        <h1 id = "titleName">Ching-Hsuan Yang (Starla Yang)</h1>
         <p class="little">B.S. student at NTHU EE</p>
         
       </div>
@@ -60,8 +60,43 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <h2>About Me</h2>
-            <p class="lead">I am currently pursuing a B.S. degree in Electrical Engineering at <a href="http://nthu-en.web.nthu.edu.tw/bin/home.php">National Tsing Hua University</a>. Last summer(2018), I have started doing research in vision science lab with <a href="http://aliensunmin.github.io/" >Prof. Min Sun</a> as my advisor. Since I entered college, I have joined <a href="https://nthuee.org/">Colde Garage</a> (a maker space at NTHU EE), where I have built the app <a href="https://github.com/ColdeGarage?q=RunRRR">RunRRR</a> with a group of awesome people and also found my interest in front-end development. I have built several mobile apps, web apps, computer games and some gadgets with Arduino since then.</p>
+              <!-- <h2>About Me</h2> -->
+            <div class="center">
+              <div class="space">
+                <p class="lead">Hey, I'm Starla! I am born and raised in Taiwan and currently pursuing B.S. degree in Electrical Engineering at <a href="http://nthu-en.web.nthu.edu.tw/bin/home.php">National Tsing Hua University</a> (graduating in 2020). I love to try new things, for I believe walking out of my comfort zone is what makes me grow.</p>
+              </div>
+
+              <h2>Experience</h2>
+              <hr>
+            </div>
+
+            <div class="space">
+              <h5 class="experience-title">Software Engineer Intern - Google Inc.</h5>
+              <p class="experience-p"><small>Singapore, June 2019 - September 2019</small></p>
+              <p>Migrated an internal tool with Angular framework and written test scripts with
+                  Jasmine using dependency injection and mock host components. Developed a search bar that supports keyword/logic search with autocomplete. And also designed a new architecture to make the code genaralized.</p>
+            </div>
+
+            <div class="space">
+              <h5 class="experience-title">Full-stack Web Developer Intern - Pickone Inc.</h5>
+              <p class="experience-p"><small>Taipei, January 2019 - May 2019</small></p>
+              <p>Developed the comment feature (filters selected comments) and map feature (space searching through an iteractive map) with Laravel, PHP, and ReactJS</p>
+            </div>
+
+            <div class="space">
+              <h5 class="experience-title">Vision Science Lab - National Tsing Hua University</h5>
+              <p class="experience-p"><small>Hsinchu, July 2018 - June 2019</small></p>
+              <p class="experience-p">Combining CycleGAN and Neural Architecture Search with Tensorflow.</p>
+              <p>Advisor: <a href="http://aliensunmin.github.io/" >Prof. Min Sun</a></p>
+            </div>
+
+            <div class="space">
+              <h5 class="experience-title">Colde Garage - National Tsing Hua University</h5>
+              <p class="experience-p"><small>Hsinchu, January 2017 - June 2018</small></p>
+              <p><a href="https://nthuee.org/">Colde Garage</a> is a maker space at NTHU EE. I have built interactive devices for an IOT escape room with Arduino and sensors, which received an enthusiastic feedback.
+              And I was also the mentor of the IOT group, teaching freshmen how to build remote control car with Arduino and Bluetooth and also 3D printing with SketchUp.</p>
+            </div>
+
             
           </div>
         </div>
@@ -72,16 +107,27 @@
       <div class="container" >
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <h2>Projects</h2>
+            <div class="center"><h2>Projects</h2></div>
+            <hr>
+
             <p class="lead"></p>
 
               <div class="card-columns">
+                <div class="card">
+                    <img class="card-img-top" src="assets/FridgeHelper.gif" alt="Card image cap?">
+                    <div class="card-body">
+                      <h5 class="card-title">Fridge Helper</h5>
+                      <p class="card-text">A system that keeps track of food in the fridge through object detection and digital scale with AWS.</p>
+                      <a href="https://youtu.be/woFtfvNQyIw" class="btn btn-secondary" target="_blank"><i class="fas fa-tv"></i></a>
+                      <p class="card-text"><small class="text-muted">June, 2019</small></p>
+                    </div>
+                  </div>
                 <div class="card">
                   <img class="card-img-top" src="assets/MoreThanAPenguinDemo.gif" alt="Card image cap?">
                   <div class="card-body">
                     <h5 class="card-title">More Than A Penguin</h5>
                     <p class="card-text">A party game built with Unity, in which players can store power and dash to hit other penguins into the water. Won <strong>Best Game Design Award</strong> and <strong>Best Popularity Award</strong> in the 4th Innovation Game Design Contest. </p>
-                    <a href="https://www.youtube.com/watch?v=0UWYn7_W73g" class="btn btn-secondary"><i class="fas fa-tv"></i></a>
+                    <a href="https://www.youtube.com/watch?v=0UWYn7_W73g" target="_blank" class="btn btn-secondary"><i class="fas fa-tv"></i></a>
 
                     <p class="card-text"><small class="text-muted">January, 2019</small></p>
                   </div>
@@ -102,7 +148,7 @@
                     <div class="card-body">
                       <h5 class="card-title">Tetris Battle</h5>
                       <p class="card-text">A PC version of Tetris Battle built with Allegro. Both 1-player mode and 2-player mode are available. Lines sent will build up stone on enemy's board and bricks dropping on a bomb clears stones.</p>
-                      <a href="https://github.com/koola025/TetrisBattle" class="btn btn-secondary"><i class="fab fa-github"></i></a>
+                      <a href="https://github.com/koola025/TetrisBattle" target="_blank" class="btn btn-secondary"><i class="fab fa-github"></i></a>
 
                       <p class="card-text"><small class="text-muted">June, 2018</small></p>
                     </div>
@@ -114,7 +160,7 @@
                     <p class="card-text">A game that you'll have to catch candy canes that falls from the sky! Other stuff with special effects might fall too. Built with Unity 3D.</p>
                     
                     
-                    <a href="https://www.youtube.com/watch?v=m4HKK2Rpzt0&feature=youtu.be" class="btn btn-secondary"><i class="fas fa-tv"></i></a>
+                    <a href="https://www.youtube.com/watch?v=m4HKK2Rpzt0&feature=youtu.be" target="_blank" class="btn btn-secondary"><i class="fas fa-tv"></i></a>
                     <p class="card-text"><small class="text-muted">November, 2018</small></p>
                   </div>
                 </div>
@@ -125,7 +171,7 @@
                   <p class="card-text">A 3D Maze with traps built with Unity. Players have to reach the end unharmed and all the walls will fly up when they do.</p>
                   <a href="https://github.com/koola025/3D-Maze" class="btn btn-secondary"><i class="fab fa-github"></i></a>
                   
-                  <a href="https://youtu.be/wTgUdKrAdi8" class="btn btn-secondary"><i class="fas fa-tv"></i></a>
+                  <a href="https://youtu.be/wTgUdKrAdi8" class="btn btn-secondary" target="_blank"><i class="fas fa-tv"></i></a>
                   <p class="card-text"><small class="text-muted">October, 2018</small></p>
                 </div>
                 </div>
@@ -143,8 +189,8 @@
                   <div class="card-body">
                     <h5 class="card-title">Web Canvas</h5>
                     <p class="card-text">This is a web painter with basic painting tools and a setting panel to customize the stroke. One can also paint on an uploaded image and download it after the work is done.</p>
-                    <a href="https://github.com/koola025/Web-Canvas" class="btn btn-secondary"><i class="fab fa-github"></i></a>
-                    <a href="https://koola025.github.io/Web-Canvas/" class="btn btn-secondary"><i class="fas fa-globe-asia"></i></a>
+                    <a href="https://github.com/koola025/Web-Canvas" target="_blank" class="btn btn-secondary"><i class="fab fa-github"></i></a>
+                    <a href="https://koola025.github.io/Web-Canvas/" target="_blank" class="btn btn-secondary"><i class="fas fa-globe-asia"></i></a>
                     <p class="card-text"><small class="text-muted">March, 2018</small></p>
                   </div>
                 </div>
@@ -153,8 +199,8 @@
                     <div class="card-body">
                       <h5 class="card-title">NS-SHAFT Web Game</h5>
                       <p class="card-text">A web version NS-SHAFT with self-designed special platforms and a leaderboard.</p>
-                      <a href="https://github.com/koola025/NS-SHAFT-WebGame" class="btn btn-secondary"><i class="fab fa-github"></i></a>
-                      <a href="https://koola025.github.io/NS-SHAFT-WebGame/" class="btn btn-secondary"><i class="fas fa-globe-asia"></i></a>
+                      <a href="https://github.com/koola025/NS-SHAFT-WebGame" target="_blank" class="btn btn-secondary"><i class="fab fa-github"></i></a>
+                      <a href="https://koola025.github.io/NS-SHAFT-WebGame/" target="_blank" class="btn btn-secondary"><i class="fas fa-globe-asia"></i></a>
                       
                       <p class="card-text"><small class="text-muted">May, 2018</small></p>
                     </div>
@@ -164,8 +210,8 @@
                   <div class="card-body">
                       <h5 class="card-title">Maple Story Web Game</h5>
                       <p class="card-text">A web game built with Phaser and Firebase. It is a RPG game that merges "special attacks" (particular move performed with complex combinations of button presses) from fighting games.I designed and developed UI.</p>
-                      <a href="https://github.com/koola025/MapleStory-WebGame" class="btn btn-secondary"><i class="fab fa-github"></i></a>
-                      <a href="https://koola025.github.io/MapleStory-WebGame/" class="btn btn-secondary"><i class="fas fa-globe-asia"></i></a>
+                      <a href="https://github.com/koola025/MapleStory-WebGame" target="_blank" class="btn btn-secondary"><i class="fab fa-github"></i></a>
+                      <a href="https://koola025.github.io/MapleStory-WebGame/" target="_blank" class="btn btn-secondary"><i class="fas fa-globe-asia"></i></a>
                         
                       <p class="card-text"><small class="text-muted">June, 2018</small></p>
                     </div>
@@ -175,8 +221,8 @@
                     <div class="card-body">
                       <h5 class="card-title">Online Chatroom</h5>
                       <p class="card-text">An online chat app, which users can add friends, create groups, send text or images, load chatting history and change profile picture.</p>
-                      <a href="https://github.com/koola025/Online-Chatroom" class="btn btn-secondary"><i class="fab fa-github"></i></a>
-                      <a href="https://koola025.github.io/Online-Chatroom/" class="btn btn-secondary"><i class="fas fa-globe-asia"></i></a>
+                      <a href="https://github.com/koola025/Online-Chatroom" target="_blank" class="btn btn-secondary"><i class="fab fa-github"></i></a>
+                      <a href="https://koola025.github.io/Online-Chatroom/" target="_blank" class="btn btn-secondary"><i class="fas fa-globe-asia"></i></a>
                       
                       <p class="card-text"><small class="text-muted">April, 2018</small></p>
                       
@@ -187,7 +233,7 @@
                   <div class="card-body">
                     <h5 class="card-title">RunRRR</h5>
                     <p class="card-text">An app for a RPG hunter game in summer camps. Users can login and find mission locations according to a map and send back pictures to solve missions and buy tools with coins earned from the game. Developed front-end for iOS.</p>
-                    <a href="https://github.com/ColdeGarage?q=RunRRR" class="btn btn-secondary"><i class="fab fa-github"></i></a>
+                    <a href="https://github.com/ColdeGarage?q=RunRRR" target="_blank" class="btn btn-secondary"><i class="fab fa-github"></i></a>
                     
                     <p class="card-text"><small class="text-muted">August, 2017</small></p>
                   </div>
@@ -197,7 +243,7 @@
                   <div class="card-body">
                     <h5 class="card-title">Claw Crane Machine</h5>
                     <p class="card-text">Built with self-drawn 3D-printed components and wood and controlled by a FPGA board. Users can grab dolls by giving instructions with a keyboard.</p>
-                    <a href="https://youtu.be/7hWcMhAVo0M" class="btn btn-secondary"><i class="fas fa-tv"></i></a>
+                    <a href="https://youtu.be/7hWcMhAVo0M" target="_blank" class="btn btn-secondary"><i class="fas fa-tv"></i></a>
                     <p class="card-text"><small class="text-muted">June, 2017</small></p>
                     
                   </div>
@@ -213,16 +259,17 @@
     </section>
 
     <section id="contact">
-      <div class="container">
-        <div class="row">
-          <div class=" contact">
-            <h2 class="iconTitle">Contact Me</h2>
+      <!-- <div class="container"> -->
+          <div class="contact">
+            <h2 class="iconTitle">Contact</h2>
+            <hr>
             <p class="icon">
               <button class="iconButton" onclick="copy('koola025@gmail.com')"><i class="far fa-envelope"></i></button>
-              <a class="aa" href="https://github.com/koola025"><i class="fab fa-github"></i></a></p>
+              <a class="removeLink iconButton" href="https://github.com/koola025"><i class="fab fa-github"></i></a>
+              <a class="removeLink iconButton" href="https://www.linkedin.com/in/%E9%9D%9C%E7%92%87-%E6%A5%8A-0838a1157/"><i class="fab fa-linkedin"></i></a>
+            </p>
           </div>
-        </div>
-      </div>
+      <!-- </div> -->
     </section>
 
     <!-- Footer
@@ -247,3 +294,18 @@
   </body>
 
 </html>
+
+<script>
+$(function () {
+  $(window).scroll(function () {
+    var scrollVal = $(this).scrollTop();
+    if (scrollVal > 100) {
+      $( "nav" ).addClass( " bg-dark nav-dark" );
+    }
+    else if (scrollVal < 100) {
+      $( "nav" ).removeClass( " bg-dark nav-dark" );
+    }
+    
+  });
+});
+</script>

@@ -3,6 +3,18 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
+nav{
+  transition: 0.5s;
+}
+nav div a {
+  color: white;
+}
+.experience-title{
+  margin-bottom: 0;
+}
+.experience-p{
+  margin-bottom: 5px;
+}
 .background-image {
   -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
   filter: blur(5px);
@@ -15,6 +27,7 @@
 .contact{
   text-align: center;
   width: 280px;
+  height: 150px;
   margin: auto;
   
 }
@@ -28,21 +41,27 @@
 }
 #top-sec{
   background-image: url('../assets/bg.jpg'); 
-  background-position-x: center;
+  background-position: center;
   background-repeat:no-repeat; 
   background-size: cover;
-  height: 500px;
+  height: 600px;
   
   
 }
-
+.center {
+  text-align: center;
+}
+.space {
+  margin: 10px 0px 70px;
+}
 
 button:focus {outline:0;}
 button:hover {color:gray;}
-.aa:hover {color:gray;}
+.removeLink:hover {color:gray;}
 i:hover {color:gray;}
-.aa{
+.removeLink{
   color: #212529;
+  padding: 0 7px;
 }
 
 
@@ -73,28 +92,25 @@ section {
 
 @media (min-width: 464px) {
   #top-con{
-    width: 470px;
+    width: 550px;
     
     margin-right: auto;
     margin-left: auto;
     
   }
   #profilePic{
-    width: 120px;
+    width: 160px;
     float: left;
     margin-right: 15px;
-    box-shadow: 1px 1px 10px black;
+    /* box-shadow: 1px 1px 10px black; */
     
   }
   .icon{
-    float: left;
     font-size: 40px;
     
   }
   .iconTitle{
-    float: left;
-    margin-right: 10px;
-    margin-top: 10px;
+    margin: 10px;
   }
   .iconButton{
     
@@ -125,7 +141,7 @@ section {
     background-image: url('../assets/bg.jpg'); 
     background-repeat:no-repeat; 
     background-size: cover;
-    height: 500px;
+    height: 600px;
     text-align: center;
     
   }
