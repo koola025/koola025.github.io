@@ -5,9 +5,17 @@
  */
 nav{
   transition: 0.5s;
+  
 }
 nav div a {
   color: white;
+}
+.bar {
+  background-color: #63a3a8;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+}
+h2 {
+  color: #63a3a8;
 }
 .experience-title{
   margin-bottom: 0;
@@ -19,7 +27,10 @@ nav div a {
   -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
   filter: blur(5px);
 }
-
+.card {
+  border: 0;
+  box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.1);
+}
 .little {
   margin: 0px;
   text-shadow: 2px 1px 3px black;
@@ -31,7 +42,9 @@ nav div a {
   margin: auto;
   
 }
-
+.bg-light {
+  background-color: #ebf9fa !important;
+}
 .iconButton:active {
   
   box-shadow: none;
@@ -60,7 +73,7 @@ button:hover {color:gray;}
 .removeLink:hover {color:gray;}
 i:hover {color:gray;}
 .removeLink{
-  color: #212529;
+  color: #63a3a8;
   padding: 0 7px;
 }
 

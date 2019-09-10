@@ -23,7 +23,7 @@
   <body id="page-top">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg  fixed-top" id="mainNav">
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
       <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">Ching-Hsuan Yang</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -264,7 +264,7 @@
             <h2 class="iconTitle">Contact</h2>
             <hr>
             <p class="icon">
-              <button class="iconButton" onclick="copy('koola025@gmail.com')"><i class="far fa-envelope"></i></button>
+              <button class="removeLink iconButton" onclick="copy('koola025@gmail.com')"><i class="far fa-envelope"></i></button>
               <a class="removeLink iconButton" href="https://github.com/koola025"><i class="fab fa-github"></i></a>
               <a class="removeLink iconButton" href="https://www.linkedin.com/in/%E9%9D%9C%E7%92%87-%E6%A5%8A-0838a1157/"><i class="fab fa-linkedin"></i></a>
             </p>
@@ -300,10 +300,10 @@ $(function () {
   $(window).scroll(function () {
     var scrollVal = $(this).scrollTop();
     if (scrollVal > 100) {
-      $( "nav" ).addClass( " bg-dark nav-dark" );
+      $( "nav" ).addClass( " bar" );
     }
     else if (scrollVal < 100) {
-      $( "nav" ).removeClass( " bg-dark nav-dark" );
+      $( "nav" ).removeClass( " bar" );
     }
     
   });
