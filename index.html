@@ -17,7 +17,7 @@
     <!-- Custom styles for this template -->
     <link href="css/scrolling-nav.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <script src="jquery-3.4.1.min.js"></script>
+    <!-- <script src="jquery-3.4.1.min.js"></script> -->
   </head>
 
   <body id="page-top">
@@ -27,7 +27,8 @@
       <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">Ching-Hsuan Yang</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          <i class="fa fa-stream white"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
@@ -107,8 +108,8 @@
       <div class="container" >
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <div class="center"><h2>Projects</h2></div>
-            <hr>
+            <!-- <div class="center"><h2>Projects</h2></div> -->
+            <!-- <hr> -->
 
             <p class="lead"></p>
 
@@ -261,12 +262,12 @@
     <section id="contact">
       <!-- <div class="container"> -->
           <div class="contact">
-            <h2 class="iconTitle">Contact</h2>
-            <hr>
+            <!-- <h2 class="iconTitle">Contact</h2>
+            <hr> -->
             <p class="icon">
               <button class="removeLink iconButton" onclick="copy('koola025@gmail.com')"><i class="far fa-envelope"></i></button>
-              <a class="removeLink iconButton" href="https://github.com/koola025"><i class="fab fa-github"></i></a>
-              <a class="removeLink iconButton" href="https://www.linkedin.com/in/%E9%9D%9C%E7%92%87-%E6%A5%8A-0838a1157/"><i class="fab fa-linkedin"></i></a>
+              <a class="removeLink iconButton" target="_blank" href="https://github.com/koola025"><i class="fab fa-github"></i></a>
+              <a class="removeLink iconButton" target="_blank" href="https://www.linkedin.com/in/%E9%9D%9C%E7%92%87-%E6%A5%8A-0838a1157/"><i class="fab fa-linkedin"></i></a>
             </p>
           </div>
       <!-- </div> -->
@@ -296,7 +297,9 @@
 </html>
 
 <script>
+
 $(function () {
+  
   $(window).scroll(function () {
     var scrollVal = $(this).scrollTop();
     if (scrollVal > 100) {
@@ -305,7 +308,7 @@ $(function () {
     else if (scrollVal < 100) {
       $( "nav" ).removeClass( " bar" );
     }
-    
+ 
   });
 });
 </script>

@@ -9,13 +9,33 @@ nav{
 }
 nav div a {
   color: white;
+  
+}
+nav div a:hover {
+  color: white;
+  opacity: 0.7;
+  transition: 0.5s;
 }
 .bar {
   background-color: #63a3a8;
   box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
 }
+.white {
+  color:white;
+}
 h2 {
-  color: #3d6b6e;
+  color: #4a4a4a;
+
+  /* text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2); */
+}
+h5 {
+  color: #63a3a8;
+}
+p{
+  color: #6e6e6e;
+}
+p a {
+  color: #63a3a8;
 }
 .experience-title{
   margin-bottom: 0;
@@ -33,18 +53,24 @@ h2 {
 }
 .little {
   margin: 0px;
+  color: #ededed;
   text-shadow: 2px 1px 3px black;
+}
+
+#contact{
+  box-shadow: -2px -2px 4px 0px rgba(0, 0, 0, 0.1);
 }
 .contact{
   text-align: center;
   width: 280px;
-  height: 150px;
+  height: 60px;
   margin: auto;
-  
 }
 .bg-light {
-  background-color: #ebf9fa !important;
+  /* background-color: #ebf9fa !important; */
+  background-image: url('../assets/trees.png') !important;
 }
+
 .iconButton:active {
   
   box-shadow: none;
@@ -57,9 +83,13 @@ h2 {
   background-position: center;
   background-repeat:no-repeat; 
   background-size: cover;
-  height: 600px;
+  height: 100vh;
   
   
+}
+#top-con{
+  padding-top: calc(50vh - 80px);
+  height: 160px;
 }
 .center {
   text-align: center;
@@ -84,8 +114,8 @@ i:hover {color:gray;}
   text-shadow: 2px 1px 7px black;
 }
 header {
-  padding: 224px 0 100px;
-  
+  padding: auto;
+  margin: auto;
 }
 
 section {
@@ -94,9 +124,6 @@ section {
 }
 
 @media (min-width: 992px) {
-  header {
-    padding: 226px 0 100px;
-  }
   #titleName{
     padding-top: 20px;
     margin-bottom: 0px;
@@ -106,10 +133,8 @@ section {
 @media (min-width: 464px) {
   #top-con{
     width: 550px;
-    
     margin-right: auto;
     margin-left: auto;
-    
   }
   #profilePic{
     width: 160px;
@@ -147,6 +172,7 @@ section {
   }
   .little {
     float: center;
+    
     margin: 0px;
     text-shadow: 2px 1px 3px black;
   }
@@ -154,12 +180,12 @@ section {
     background-image: url('../assets/bg.jpg'); 
     background-repeat:no-repeat; 
     background-size: cover;
-    height: 600px;
     text-align: center;
     
   }
   #top-con{
     width: auto;
+    
     text-align: center;
     margin-right: auto;
     margin-left: auto;
@@ -185,7 +211,7 @@ section {
   }
   .iconButton{
   
-    border: none;
+    /* border: none; */
     backface-visibility: hidden;
    
     height: 50px;
